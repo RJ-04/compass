@@ -20,5 +20,5 @@ dev_dependencies:
 
 flutter:
   assets:
-    - assests/_98d83dac-05dc-473f-b85f-0a4f4c9a9f7f.jpeg
     - assests/_972d46da-f6e1-4f06-ac76-40e6d28edfe4.jpeg
+    - assests/R.jpeg

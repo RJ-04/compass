@@ -86,18 +86,15 @@ class _MainAppState extends State<MainApp> {
           turns += (diff / 360);
           prevValue = direction;
 
-          return Padding(
-            padding: const EdgeInsets.all(8.0),
-            child: Center(
-              child: AspectRatio(
-                aspectRatio: 1,
-                child: AnimatedRotation(
-                  alignment: Alignment.center,
-                  turns: turns * -1,
-                  duration: const Duration(milliseconds: 550),
-                  child: Image.asset(
-                    'assests/_972d46da-f6e1-4f06-ac76-40e6d28edfe4.jpeg',
-                  ),
+          return Center(
+            child: AspectRatio(
+              aspectRatio: 1,
+              child: AnimatedRotation(
+                alignment: Alignment.center,
+                turns: turns * -1,
+                duration: const Duration(milliseconds: 550),
+                child: Image.asset(
+                  'assests/R.jpeg',
                 ),
               ),
             ),
